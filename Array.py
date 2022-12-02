@@ -51,3 +51,12 @@ array_string = 'The length of my array is '
 
 # `problem 18. print array_string concatenated with my_array_length to the console.`
 print(array_string + str(my_array_length))
+
+# "for each" loop
+# array as a whole is called 'cars'
+# a single element would be called 'car'
+
+element = 1
+for car in cars: #this says print each element 'car' for the number of items in the array 'cars'
+    print(element,car)
+    element += 1 #element = element + 1
